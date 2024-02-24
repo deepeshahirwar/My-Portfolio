@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal; 
+    color: #fff;
+} 
+body{
+    background: rgb(0, 0, 0); 
+} 
+/* styling for nevbar  */
+.photo img{
+    width: 3.7rem;  
+} 
+a{
+    color: #ffffffeb; 
+    text-decoration: none;
+} 
+.name{
+    color: #fff;
+} 
+.navbar { 
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    justify-content: space-around; 
+    height: 5rem; 
+    border-bottom: 1px solid #ccc;
+} 
+.box1,box2,box3{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+   
+} 
+.photo{
+    border: 3px solid white; 
+    border-radius: 50%;
+} 
+
+.box1 p{
+  margin-left: 1.5rem; 
+  font-size: 22px;
+}
+
+.box3{
+    margin-left: 5%; 
+    
+} 
+.box2 a{
+    margin-left: 3rem; 
+    width: 5rem; 
+    /* border: 1px solid white;  */
+    padding: 7px; 
+    border-radius: 10px; 
+    transition: 0.3s ease-in-out;
+}  
+.box2 a:hover{
+    background: #414141; 
+    width: 10rem;
+} 
+.box3 a{
+    border: 1px solid white; 
+    padding: 7px; 
+    border-radius: 10px; 
+    background:rgb(248, 95, 18);
+}  
+ .box2 i{
+    color: white; 
+    margin-left: 3rem;
+} 
+/* styling for nevbar  */ 
+ 
+
+/* styling for hero section*/
+.homeContent{
+    display: flex;
+     justify-content: center; 
+    align-items: center;  
+    justify-content: space-around;
+    margin-top: 5rem;
+}  
+.rightcontent{
+    width: 50%;
+}
+
+.mycontent{
+  
+    background: rgb(22, 24, 26); 
+    margin-top: 2rem; 
+    padding: 2rem; 
+    border-radius: 10px;
+}
+ .contects{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 2rem;
+ }  
+ .imgContainer img{
+    width: 20rem;
+ }  
+ .photoBox{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; 
+    width: 40%;
+ }
+ .imgContainer{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%; 
+    height: 24rem;  
+    flex-direction: column;
+  background: rgb(22, 24, 26); 
+  border-radius: 10px;
+ } 
+ .aboutme h2{
+    margin-top: 5px; 
+    font-size: 30px;
+ } 
+ .contects{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;  
+    margin-top: 9rem; 
+   
+ } 
+ .contects  div {
+  margin-top: 1rem;
+ } 
+ .contects2{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; 
+    margin-top: 3rem; 
+   
+ }  
+ .icons2{
+    margin-top: 1rem; 
+ } 
+ .icons2 i{
+    margin-left: 2rem; 
+    margin-right: 2rem;
+ } 
+ .icons i {
+    margin-left: 2rem; 
+    margin-right: 2rem;
+ } 
+
+ /* styling for hero section end*/
