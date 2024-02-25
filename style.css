@@ -178,7 +178,8 @@ a{
     border: 1px solid white; 
     margin: 2rem 2rem 0 2rem; 
   
- } 
+ }  
+
  /* skills section styling start here */
  .skills h1{
     margin-top: 3rem;
@@ -272,4 +273,53 @@ a{
 } 
 img{
     border-radius: 10px;
+} 
+
+/* skill section end */
+
+/* eduction section start */ 
+.edu{
+    text-align: center;
+    margin-top: 3rem; 
+    font-size: 40px;
+} 
+.tit img{
+    width: 10rem;
+    height: 10rem;
+} 
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    justify-content: space-around;
+    margin-top: 4rem; 
+    position: relative;
+    width: 100%;
+} 
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    justify-content: space-around;
+    border-radius: 10px;
+    background: rgb(22, 24, 26);  
+    padding:10px; 
+    width: 30%; 
+  
+}  
+.edu-detials{
+    display: flex;
+    align-items: left;
+     
+    flex-direction: column; 
+    width: 50%;
+}
+.edu-detials p{
+   margin-top: 1rem;
+}  
+/* skill section stling end   */
+
+.projects h1{
+    text-align: center;
+    margin-top: 3rem;
 }
