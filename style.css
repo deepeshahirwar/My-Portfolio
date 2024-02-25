@@ -176,7 +176,7 @@ a{
  /* styling for hero section end*/ 
  .line1{
     border: 1px solid white; 
-    margin: 1rem 2rem 0 2rem; 
+    margin: 2rem 2rem 0 2rem; 
   
  } 
  /* skills section styling start here */
@@ -190,13 +190,86 @@ a{
     justify-content: center;
     align-items: center;  
     justify-content: space-around;
-    width: 100%; 
-    margin-top: 3rem;
+ 
+    margin-left: 5rem;
+    margin-right: 5rem;
+  
 } 
 .programming ,.webs ,.otherSkills{
-  width: 25%; 
+  width: 70%; 
   height: 25rem; 
-  border: 2px solid white; 
-  background: rgb(22, 24, 26);  
-  border-radius: 10px;
+  /* border: 2px solid white;  */
+  background: rgb(22, 24, 26);    
+  border-radius: 10px; 
+  margin-top: 1rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+} 
+.programming img{
+    width: 8rem; 
+    height: 8rem;
+}  
+.webs img{
+    width: 8rem; 
+    height: 8rem;
+} 
+.otherSkills img{
+    width: 10rem; 
+    height: 10rem;
+}
+.skills-hadings{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    margin-top: 3rem;  
+    
+    width: 90%; 
+  
+} 
+.skills-hadings p{
+  font-size: 20px; 
+  background: linear-gradient(rgb(239, 85, 8),rgb(248, 160, 18));
+  padding: 5px; 
+  border-radius: 4px;
+}  
+
+.frameworks{ 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    margin-top: 3rem;  
+    width: 100%;
+} 
+.frame p{
+  font-size: 20px; 
+  background: linear-gradient(rgb(239, 85, 8),rgb(248, 160, 18));
+  padding: 5px; 
+  border-radius: 4px; 
+ 
+}  
+.tailwind{
+  width: 50%; 
+  height: 13rem; 
+  /* border: 2px solid white;  */
+  background: rgb(22, 24, 26);    
+  border-radius: 10px; 
+  margin-top: 1rem;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+} 
+
+.tailwind img{
+    width: 12rem; 
+    height: 12rem; 
+  
+} 
+img{
+    border-radius: 10px;
 }
