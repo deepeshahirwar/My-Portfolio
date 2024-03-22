@@ -2,11 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal; 
-    color: #fff;
+    color: #fff; 
+    font-family: Arial, Helvetica, sans-serif;
 } 
 body{
     background: rgb(0, 0, 0); 
@@ -94,7 +91,8 @@ a{
     background: rgb(22, 24, 26); 
     margin-top: 2rem; 
     padding: 2rem; 
-    border-radius: 10px;
+    border-radius: 10px; 
+    line-height: 1.5rem;
 }
  .contects, .contects2{
     display: flex;
@@ -176,7 +174,7 @@ a{
  /* styling for hero section end*/ 
  .line1{
     border: 1px solid white; 
-    margin: 2rem 2rem 0 2rem; 
+    margin: 3rem 2rem 0 2rem; 
   
  }  
 
@@ -318,8 +316,78 @@ img{
    margin-top: 1rem;
 }  
 /* skill section stling end   */
-
+ 
+/* project section start here */
 .projects h1{
     text-align: center;
     margin-top: 3rem;
+} 
+
+.pro-outer{
+   
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-around; 
+    margin-top: 2rem;
+} 
+.pro{
+    width: 23%;
+    height: 30rem;
+    background: rgb(22, 24, 26);  
+    border-radius: 10px;
+
+} 
+.pro img{
+    width: 100%; 
+    height: 60%;
+} 
+.pro-cont{
+    margin: 1rem 1rem 0 1rem; 
+    height: 40%;
+} 
+.pro-cont h2{
+    color:rgb(227, 132, 7); 
+} 
+.pro-cont p{
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    font-style: unset;
+} 
+.pro-cont h3{
+    margin-top: 1rem;
+    color: rgb(16, 214, 16); 
+    cursor: pointer;
+} 
+/* project sectin end here */ 
+
+/* contect stlying start here */ 
+.contects{
+    margin-top: 2rem;
+}
+.contects h1{
+    font-size: 35px; 
+    text-align: center;
+} 
+.con-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+} 
+.con-left{
+    background: rgb(22, 24, 26); 
+    width: 30%; 
+    height: 30rem; 
+    border-radius: 10px;
+} 
+
+.con-right{
+    background: rgb(22, 24, 26); 
+    width: 60%; 
+    height: 30rem; 
+    border-radius: 10px;
+
 }
